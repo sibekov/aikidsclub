@@ -1,1 +1,1 @@
-web gunicorn aikids.wsgi
+web: gunicorn aikidsproject.wsgi

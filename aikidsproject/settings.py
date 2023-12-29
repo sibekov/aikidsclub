@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['8000-sibekov-aikidsclub-1jryg8zhdb.us2.codeanyapp.com',
-                 'djangokids-de753277c577.herokuapp.com', 'localhost']
+                 'aikids-b580c70d6b36.herokuapp.com', 'localhost']
 
 
 # Application definition
