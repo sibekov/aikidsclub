@@ -27,7 +27,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['8000-sibekov-aikidsclub-1jryg8zhdb.us2.codeanyapp.com',
                  'aikids-b580c70d6b36.herokuapp.com', 'localhost']
