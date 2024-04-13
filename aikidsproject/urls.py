@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from aikidsapp.views import index as index_views
 
 urlpatterns = [
+    path('hello/',index_views,name=index),
     path('admin/', admin.site.urls),
 ]
