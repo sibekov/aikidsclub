@@ -1,4 +1,6 @@
-from django.shortcuts import render,include, HttpResponse
+from django.shortcuts import render
+from django.http import HttpResponse
+
 # Create your views here.
 def index(request):
-    return httpResponse("I will put my template here")
+    return HttpResponse("I will put my template here")
