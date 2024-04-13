@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from aikidsapp.views import index 
+from aikidsapp.views import kidstodo
 
 urlpatterns = [
-    path('',index,name='hello'),
+    path('',kidstodo,name='kidstodo'),
     path('admin/', admin.site.urls),
 ]
