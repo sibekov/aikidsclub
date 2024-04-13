@@ -18,6 +18,6 @@ from django.urls import path
 from aikidsapp.views import index 
 
 urlpatterns = [
-    path('hello/',index,name='hello'),
+    path('',index,name='hello'),
     path('admin/', admin.site.urls),
 ]
