@@ -10,8 +10,17 @@
     <table>
         {% for item in items %}
         <tr>
-            <td> {{ item.name}}</td>
-            <td>{{ item.done}}</td>
+        {% if item.done %}
+        <td> {{ item.name}}</td>
+        <td>{{"Booked"}}</td>
+        {% else %}
+        <td> {{ item.name}}</td>
+        <td>{{"Available"}}</td>
+        {% endif %}
+        </tr>
+        {% empty %}
+        <tr>
+        <td>Sorry The Club is Fully Booked.</td>
         </tr>
         {% endfor %}
     </table>
