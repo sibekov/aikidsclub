@@ -1,5 +1,6 @@
 from django.shortcuts import render,redirect
 from .models import Item
+from .forms import ItemForm
 # Create your views here.
 
 
@@ -13,9 +14,13 @@ def kidstodo(request):
 
 def add_item(request):
     if request.method == 'POST':
-        name = request.POST.get('item_name')
-        done = 'done' in request.POST
-        Item.objects.create(name=name, done=done)
+        form = ItemForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('kidstodo')
         
-        return redirect('kidstodo')
-    return render(request,'aikidsapp/add_item.html')
+    form = ItemForm()
+    context = {
+        'form': form
+    }
+    return render(request,'aikidsapp/add_item.html',context)
