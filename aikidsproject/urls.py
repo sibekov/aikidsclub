@@ -15,10 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from aikidsapp.views import kidstodo, add_item, edit_item
+from aikidsapp import views 
 
 urlpatterns = [path('admin/', admin.site.urls),
-    path('',kidstodo,name='kidstodo'),
-    path('add',add_item,name='add'),
-    path('edit/<item_id>',edit_item,name='edit'),
+    path('',views.kidstodo,name='kidstodo'),
+    path('add',views.add_item,name='add'),
+    path('edit/<item_id>',views.edit_item,name='edit'),
+    path('toggle/<item_id>',views.toggle_item,name='toggle'),
+    path('delete/<item_id>',views.delete_item,name='delete'),
 ]
