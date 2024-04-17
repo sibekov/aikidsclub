@@ -7,3 +7,7 @@ class TestModels(TestCase):
         item = Item.objects.create(name='Test aikidsapp Item')
         self.assertFalse(item.done)
 
+    def test_item_string_method_returns_name(self):
+        item = Item.objects.create(name='Test aikidsapp Item')
+        self.assertEqual(str(item),'Test aikidsapp Item')
+
