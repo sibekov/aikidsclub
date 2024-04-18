@@ -61,7 +61,6 @@
         <!-- Content Goes here -->
 
         <h1>Kids Tasks for Today:</h1>
-        <div class="separator1">
         <table>
             {% for item in items %}
             <tr>
@@ -71,7 +70,7 @@
             {% else %}
             <td> {{item.name}}</td>
             <td>{{"Available"}}</td>
-            {% endif %}
+            {% endif %} 
             <td>
             <a href="/toggle/{{item.id}}">
             <button>Toggle</button></a>
@@ -87,14 +86,50 @@
             </tr>
             {% empty %}
             <tr>
-            <td>Sorry The Club is Fully Booked.</td>
+            <td>Add New Task...</td>
             </tr>
+            
             {% endfor %}
-        </table></div>
-        <button><a href="/add">Add an Item</a></button>
+        </table>
+        <button id="incrementa"><a href="/add">Add an Item</a></button>
+        <button id="demo"></button>
+        <button id="summa"></button>
         {% endblock content %}
     </main>
+<!-- Display the countdown timer in an element -->
 
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2030 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = 24 - hours + "h "
+  + minutes + "m " + seconds + "s ";
+  document.getElementById("samma").innerHTML = length(table);
+  // If the count down is finished, write some text
+  if (distance < 0) {
+  clearInterval(x);
+   document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
     <!-- Footer -->
     <footer class="footer mt-auto py-3 dark-bg">
         <p class="m-0 text-center text-white">Made by AIKIDSCLUB</p>
