@@ -162,9 +162,10 @@ table {
     height: 40%;
     padding-top: 10%;
     padding-left: 10px;
-    background-color: rgba(88, 182, 59, 0.9);
+    background-color: yellow;
     bottom: 20%;
     left: 30%;
+    
     text-align: center;
     position: absolute;
     color: blue;
