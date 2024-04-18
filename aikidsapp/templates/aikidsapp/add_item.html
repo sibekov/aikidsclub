@@ -60,8 +60,7 @@
         {% block content %}
         <!-- Content Goes here -->
 
-        <h1>Kids Tasks for Today:</h1>
-       
+
         <h1>Add a To do Item:</h1>
         <form method="POST" action="add">
         {% csrf_token %}
@@ -71,7 +70,7 @@
           </div>
         </form>
     
-        <button><a href="/add">Add an Item</a></button>
+        
         {% endblock content %}
     </main>
 
