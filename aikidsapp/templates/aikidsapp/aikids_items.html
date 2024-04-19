@@ -59,12 +59,14 @@
     <main class="flex-shrink-0 main-bg">
         {% block content %}
         <!-- Content Goes here -->
-
+        lista=[]
         <h1>Kids Tasks for Today:</h1>
         <table>
             {% for item in items %}
             <tr>
             {% if item.done %}
+            done
+            <button id="summa">{completed}</button>
             <td> {{ item.name}}</td>
             <td>{{"Booked"}}</td>
             {% else %}
@@ -93,7 +95,7 @@
         </table>
         <button id="incrementa"><a href="/add">Add an Item</a></button>
         <button id="demo"></button>
-        <button id="summa"></button>
+        
         {% endblock content %}
     </main>
 <!-- Display the countdown timer in an element -->
@@ -120,7 +122,7 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = 24 - hours + "h "
+  document.getElementById("demo").innerHTML = 18 - hours + "h "
   + minutes + "m " + seconds + "s ";
   document.getElementById("samma").innerHTML = length(table);
   // If the count down is finished, write some text

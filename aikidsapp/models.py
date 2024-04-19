@@ -8,6 +8,6 @@ class Item(models.Model):
     done = models.BooleanField(null=False, blank=False,default=False)
 
     def __str__(self):
-        return self.name
+        return f'{self.name}, status = {self.done}'
         
 
