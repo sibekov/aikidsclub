@@ -19,10 +19,6 @@ def kidstodo(request):
     return render(request,'aikidsapp/aikids_items.html',context)
 
 
-def counta():
-    len(items) 
-
-
 
 def add_item(request):
     if request.method == 'POST':

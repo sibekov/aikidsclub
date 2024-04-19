@@ -1,5 +1,6 @@
 body {
-    background-color: none;
+    background-image: /workspaces/aikidsclub/media/AIkid.jpg;
+    background-repeat: no-repeat;
 }
 
 
@@ -170,6 +171,7 @@ table {
     color: blue;
     overflow: auto;
   }
+  
 
 #demo {
     font-size: 100%;
@@ -178,12 +180,13 @@ table {
     letter-spacing: 4px;
     width: 10%;
     height: 10%;
-    background-color:greenyellow;
+    background-color:rgb(55, 59, 47);
     left: 85%;
     text-align: center;
     position: absolute;
-    color: blue;
+    color: rgb(2, 2, 17);
     overflow: auto;
+    border-end-end-radius: 30%;
 }
 
 #summa {
@@ -193,7 +196,7 @@ table {
     letter-spacing: 4px;
     width: 10%;
     height: 10%;
-    background-color:greenyellow;
+    background-color:rgb(46, 42, 43);
     right: 85%;
     text-align: center;
     position: absolute;
@@ -213,6 +216,11 @@ table {
     left: 45%;
     text-align: center;
     position: absolute;
-    color: blue;
+    color: rgba(18, 18, 19, 0.884);
     overflow: auto;
+}
+
+#fotos {
+    background-image: image();
+    width: 100%;
 }
