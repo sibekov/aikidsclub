@@ -10,9 +10,10 @@ from django.views import generic
 def kidstodo(request):
     items = Item.objects.all()
     completed = len(items.filter(done=True))
-    #print(f'completed : {completed}')
+    print(f'completed : {completed}')
     context = {
-        'items':items
+        'items':items,
+        'completed' : completed
 
     }
     return render(request,'aikidsapp/aikids_items.html',context)
