@@ -4,3 +4,9 @@
 <img src="media/aikidshomepage.JPG">
 
 <h2>Features</h2>
+
+**NAVIGATION BAR AND THE LOGO**
+
+<img src="media/Navigationandlogo.JPG">
+
+<p>This feature a logo and The home logout and a login link.  You can click on them to move to the log out page or log in if you would like to log in with your credentials. </p>
