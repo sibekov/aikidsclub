@@ -107,3 +107,44 @@
 <img src="media/completedcov.JPG">
 
 
+<h2>CREDITS</h2>
+
+**CODE INSTITUTE WALK THROUGH PROJECTS**
+
+* Hello Django help me a lot with the understanding of CRUD
+* I Think therefore I blog help me with the understanding of class based views.
+
+**CODE INSTITUTE TUTORS**
+
+* Rebecca helped me with the understanding of the proc file and setting up the gunicorn server for successfull first deployment of an empty project.
+
+* John Cork help me with the understanding of context which enabled me to complete my counter feature.
+
+**UNSPLASH.COM**
+Supplied a free picture of a child girl playing with toy truck which I will use in the future for background
+https://unsplash.com/photos/boy-lying-on-bed-playing-with-red-and-blue-toy-truck-oUgZVBaGcEQ
+
+**STACKOVERFLOW.COM**
+
+Give me more understanding for countdowns.
+https://stackoverflow.com/questions/3620943/measuring-elapsed-time-with-the-time-module
+
+**w3schools**
+help me refresh my memory on strings length method.
+https://www.w3schools.com/python/gloss_python_string_length.asp
+
+**w3schools**
+This helped me with the understanding of how to code to count down the number of hours left.
+https://www.w3schools.com/howto/howto_js_countdown.asp
+
+**fontawesome**
+Helpme with the implementation of my footer.
+"https://kit.fontawesome.com/ca1eefdd78.js"
+
+"https://fonts.gstatic.com">
+
+https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap
+
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+
+"https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
