@@ -150,5 +150,5 @@ https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap
 **cloudflare**
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 
-**cloudflare**
+**bootstrap**
 "https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
