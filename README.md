@@ -69,31 +69,39 @@
 
 **MODEL TEST**
 
-<p>Testing Models...</p>
+<p>Testing Models has not errors. Error would show an E instead of the dot. Running a test on models give a dot which is a pass status as dipicted on the snip below:</p>
 
 <img src="media/modelstest.JPG">
 
 **VIEW TEST**
 
-<p>Testing Views...</p>
+<p>Testing Views is the same, there are no Es for errors. Running the test on views lead to only dots meaing all the function for view run with no problems. Below snip:</p>
 
 <img src="media/viewstest.JPG">
 
 **FORM TEST**
 
-<p>Testing Views...</p>
+<p>Testing Forms requirements of not leaving empty fealds and making them required have been coded correctly, this is shown by no E for errors on the results but only dots. see snip below:</p>
 
 <img src="media/testsforms.JPG">
 
 **COVERAGE TEST**
 
-<p>Initial Coverage...</p>
+<p>Initial Coverage show that there important tests that we did not cover. In this case Models is missing 17% percent of important tests.</p>
 
 <img src="media/coverageinit.JPG">
+<p>Investigating this further shows that I did not cover the string method.</p> 
+<img src="media/initmissingcov.JPG">
+<p>Adjusting this lead to an improved resulst as seen from the snip below. The models status is at 100% as opposed to the initial 83%</p>
+<img src="media/initmissingcovcor.JPG">
+<p>The Second missing coverage relates to views, specifically the post method on forms.</p>
+<img src="media/secmissingcov.JPG">
+<p>Adjusting this lead to an improved resulst as seen from the snip below. The views status is at 100% as opposed to the initial 89%</p>
 
-**UDATED COVERAGE TEST**
 
-<p>Final Coverage...</p>
+**UPDATED COVERAGE TEST**
+
+<p>Final Coverage is at 100% meaning all important tests have been covered. The logic is up to the coder. see below snip depicting all coverage improved to 100%</p>
 
 <img src="media/updated test coverage.JPG">
 
