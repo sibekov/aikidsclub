@@ -141,10 +141,14 @@ https://www.w3schools.com/howto/howto_js_countdown.asp
 Helpme with the implementation of my footer.
 "https://kit.fontawesome.com/ca1eefdd78.js"
 
+**fonts.gstatic**
 "https://fonts.gstatic.com">
 
+**fonts.googleapis**
 https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap
 
+**cloudflare**
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 
+**cloudflare**
 "https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
