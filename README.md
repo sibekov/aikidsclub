@@ -104,5 +104,6 @@
 <p>Final Coverage is at 100% meaning all important tests have been covered. The logic is up to the coder. see below snip depicting all coverage improved to 100%</p>
 
 <img src="media/updated test coverage.JPG">
+<img src="media/completedcov.JPG">
 
 
