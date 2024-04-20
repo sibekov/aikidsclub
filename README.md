@@ -56,4 +56,10 @@
 **CRUD ADMIN**
 <p>The administrator in this case a teacher is able to log in as a supper user and perform all the CRUD features above on behalf of any student if they call for these requests as dipicted on the below snip:</p>
 <img src="media/loginadmin.JPG">
+<img src="media/adminedit.JPG">
 <img src="media/CRUDforAdmin.JPG">
+
+<h2>Agile Methodology</h2>
+
+<p>All the planning and implementation of all the above features preceeded by a planed user story which was moved in to progress status and when it was finished it was moved to the done columen as you can see from the snip below.  All but one task have been implemented.</p>
+<img src="media/agile.JPG">
