@@ -9,4 +9,10 @@
 
 <img src="media/Navigationandlogo.JPG">
 
-<p>This feature a logo and The home logout and a login link.  You can click on them to move to the log out page or log in if you would like to log in with your credentials. </p>
+<p>This feature a logo, The home, logout and a login link.  You can click on them to move to the log out page or log in if you would like to log in with your credentials. This Ends with Heading "Kids Taskds for Today" encouraging the user to look down for additional features.</p>
+
+**Counter of Done Items**
+
+<img src="media/Bookeordoneitems.JPG">
+
+<p>This feature is counts items that are confirmed or booked, this helps the teacher and the child to guage their workload and see if they are winning the day or not. </p>
