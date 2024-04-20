@@ -52,3 +52,7 @@
 <img src="media/peter.JPG">
 <p>Clicking update item from this page will automatically redirect you back to home page. The Table on your home page will reflect the new edited item as dipicted on the snip below:</p>
 <img src="media/updatedwithpeter.JPG">
+
+**CRUD ADMIN**
+<p>The administrator in this case a teacher is able to perform all the CRUD features above on behalf of any student if they call for these requests as dipicted on the below snip:</p>
+<img src="media/admin.JPG">
