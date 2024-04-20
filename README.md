@@ -61,5 +61,40 @@
 
 <h2>Agile Methodology</h2>
 
+**USER STORIES MANAGEMENT**
 <p>All the planning and implementation of all the above features preceeded by a planed user story which was moved in to progress status and when it was finished it was moved to the done columen as you can see from the snip below.  All but one task have been implemented.</p>
 <img src="media/agile.JPG">
+
+<h2>Testing</h2>
+
+**MODEL TEST**
+
+<p>Testing Models...</p>
+
+<img src="media/modelstest.JPG">
+
+**VIEW TEST**
+
+<p>Testing Views...</p>
+
+<img src="media/viewstest.JPG">
+
+**FORM TEST**
+
+<p>Testing Views...</p>
+
+<img src="media/testsforms.JPG">
+
+**COVERAGE TEST**
+
+<p>Initial Coverage...</p>
+
+<img src="media/coverageinit.JPG">
+
+**UDATED COVERAGE TEST**
+
+<p>Final Coverage...</p>
+
+<img src="media/updated test coverage.JPG">
+
+
