@@ -32,5 +32,7 @@
 
 <p>ADD AN ITEM button will direct you to a new page where you can type in the tittle of the new item and also confirm it by marking the check box called done as dipicted below"</p>
 <img src="media/additem.JPG">
-<p>Clicking add itme from this page will automatically redirect you back to home page. The Table on your home page will reflect the new item you just added as dipicted on the snip below:</p>
+<p>Clicking add item from this page will automatically redirect you back to home page. The Table on your home page will reflect the new item you just added as dipicted on the snip below:</p>
 <img src="media/tableoneitem.JPG">
+<p>You can add as many items as you like as you can see from below snip the list will keep on increasing.  The Toggle button is used to switch from confirmed status to available status. Note that the number of confirmed or booked items corresponds with the counter on your top left-hand corner of your screen</p>
+<img src="media/moreitemsbooked.JPG">
