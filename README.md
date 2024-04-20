@@ -1,4 +1,4 @@
-<h1>Start Readme</h1>
+<h1>AIKIDS CLUB TO DO LIST</h1>
 
 
-<img src="media/LLpB.jpg">
+<img src="media/aikidshome.JPG">
