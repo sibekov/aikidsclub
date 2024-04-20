@@ -11,8 +11,26 @@
 
 <p>This feature a logo, The home, logout and a login link.  You can click on them to move to the log out page or log in if you would like to log in with your credentials. This Ends with Heading "Kids Taskds for Today" encouraging the user to look down for additional features.</p>
 
-**Counter of Done Items**
+**Counter of Done or Booked Items**
 
 <img src="media/Bookeordoneitems.JPG">
 
 <p>This feature is counts items that are confirmed or booked, this helps the teacher and the child to guage their workload and see if they are winning the day or not. </p>
+
+**The Count Down!**
+
+<img src="media/counter.JPG">
+
+<p>This feature is shows how many hours left untill the end of the day, this will help both the teacher and children tomanage their tasks better. </p>
+
+**CRUD FEATURES**
+
+<img src="media/CRUD.JPG">
+
+<p>Delete button removes items from the list. If the list is ampty then you will see a message that says 'ADD A TASK...'</p>
+<img src="media/emptylist.JPG">
+
+<p>ADD AN ITEM button will direct you to a new page where you can type in the tittle of the new item and also confirm it by marking the check box called done as dipicted below"</p>
+<img src="media/additem.JPG">
+<p>Clicking add itme from this page will automatically redirect you back to home page. The Table on your home page will reflect the new item you just added as dipicted on the snip below:</p>
+<img src="media/tableoneitem.JPG">
