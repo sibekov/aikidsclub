@@ -23,6 +23,15 @@
 
 <p>This feature is shows how many hours left untill the end of the day, this will help both the teacher and children tomanage their tasks better. </p>
 
+**The logout link!**
+
+<img src="media/logoutsignout.JPG">
+
+<p>Clicking on logout will redirect you to a signout page as depicted ubove and if you do sign out then it is possible to sign in and log in it as see below. </p>
+
+<img src="media/loginposible.JPG">
+<img src="media/signinginwithemail.JPG">
+
 **CRUD FEATURES**
 
 <img src="media/CRUD.JPG">
