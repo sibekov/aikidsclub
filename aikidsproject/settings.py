@@ -31,8 +31,6 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['8000-sibekov-aikidsclub-0wqinfmrs3.us1.codeanyapp.com','aikids-b580c70d6b36.herokuapp.com', 'localhost']
 
-#'8000-sibekov-aikidsclub-0wqinfmrs3.us1.codeanyapp.com',
-
 # Application definition
 
 INSTALLED_APPS = [
