@@ -70,11 +70,13 @@
             <tr>
             {% if item.done %}
             <button id="summa">{{completed}}</button>
-            <td> {{ item.name}}</td>
+            <td>{{ item.name}}</td>
             <td>{{"Booked"}}</td>
+            <td>{{"Timer"}}</td>
             {% else %}
             <td> {{item.name}}</td>
             <td>{{"Available"}}</td>
+            <td>{{"Timer"}}</td>
             {% endif %} 
             <td>
             <a href="/toggle/{{item.id}}">
